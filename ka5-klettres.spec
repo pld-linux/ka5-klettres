@@ -42,6 +42,12 @@ KLettres aims to help to learn the alphabet and then to read some
 syllables in different languages. It is meant to help learning the
 very first sounds of a new language, for children or for adults.
 
+%description -l pl.UTF-8
+Celem KLettres jest pomoc w nauce alfabetu i czytania różnych
+sylab w różnych językach. Program ma pomagać uczyć się pierwszych
+dźwięków nowego języka, przeznaczony jest zarówno dla dzieci
+jak i dorosłych.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
