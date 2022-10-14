@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	22.08.1
+%define		kdeappsver	22.08.2
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		klettres
 Summary:	klettres
 Name:		ka5-%{kaname}
-Version:	22.08.1
-Release:	2
+Version:	22.08.2
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	fd0456189d01a8b2713f213d2a27992e
+# Source0-md5:	7d5c982278ee2f14d70b037ce7c1b20e
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
